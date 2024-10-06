@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Oka Hub",
+    Title = "Banana Hub",
     SubTitle = "True V2 | By Oka",
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 320),
@@ -12,7 +12,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    home = Window:AddTab({ Title = "Tab Info", Icon = "inactive" }),
+    home = Window:AddTab({ Title = "" }),
     Main = Window:AddTab({ Title = "Tab Farm", Icon = "home" }),
     Sea = Window:AddTab({ Title = "Tab Sea Event", Icon = "anchor" }),
     ITM = Window:AddTab({ Title = "Tab Items", Icon = "sword" }),
