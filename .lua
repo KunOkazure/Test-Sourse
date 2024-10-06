@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ----------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
-    Title = "Hiru Hub",
+    Title = "Oka Paid",
     SubTitle = "Version 2 | By Oka",
     TabWidth = 160,
     Size = UDim2.fromOffset(500, 320),
@@ -12,7 +12,6 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    home = Window:AddTab({ Title = "Tab Info", Icon = "activity" }),
     Main = Window:AddTab({ Title = "Tab Farm", Icon = "home" }),
     Sea = Window:AddTab({ Title = "Tab Sea Event", Icon = "anchor" }),
     ITM = Window:AddTab({ Title = "Tab Items", Icon = "sword" }),
@@ -6623,7 +6622,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
             Hop()
             Fluent:Notify({
-                Title = "Hiru HuB",
+                Title = "Oka Paid",
                 Content = "Turn Off Find Full Moon...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -6639,7 +6638,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
             Hop()
             Fluent:Notify({
-                Title = "Hiru HuB",
+                Title = "Oka Paid",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
