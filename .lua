@@ -12,6 +12,7 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
+home = Window:AddTab({ Title = "Tab Info", Icon = "activity" }),
     Main = Window:AddTab({ Title = "Tab Farm", Icon = "home" }),
     Sea = Window:AddTab({ Title = "Tab Sea Event", Icon = "anchor" }),
     ITM = Window:AddTab({ Title = "Tab Items", Icon = "sword" }),
